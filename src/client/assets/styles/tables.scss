@@ -1,0 +1,21 @@
+.ReactTable {
+  .rt-tr {
+    padding: 0px 5px;
+  }
+
+  .rt-td {
+    font-weight: 300;
+  }
+
+  .-next {
+    .-btn {
+      color: white;
+    }
+  }
+
+  .rt-thead {
+    .-headerGroups {
+      padding: 10px 0px;
+    }
+  }
+}

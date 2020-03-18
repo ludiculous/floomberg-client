@@ -1,0 +1,40 @@
+#AppContainer {
+  min-height: 100vh;
+  background: $darkFill;
+  background-size: cover;
+  min-width: 968px;
+}
+
+.AppContent {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.section-flow {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+
+.csv-container {
+  display: flex;
+  width: 100%;
+  margin-top: -32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filelist {
+  li {
+    list-style: none;
+  }
+}
+
+.table-container {
+  width: 100%;
+}

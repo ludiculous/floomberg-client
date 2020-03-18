@@ -1,0 +1,35 @@
+.filter-row {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 5px 0px;
+}
+
+.filter-container {
+  height: 100%;
+  background-color: $darkAccent;
+  padding: 15px;
+  width: 300px;
+}
+
+.filter-label {
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.filter-date {
+  border: 1px solid hsl(0, 0%, 80%);
+  background-color: #2e2f37;
+  color: #808080;
+  height: 25px;
+  padding: 5px;
+  width: inherit !important;
+}
+
+.select-input {
+  margin: 5px 0px;
+}
